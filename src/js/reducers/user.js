@@ -38,7 +38,7 @@ const user = (state = null, action) => {
             }
             case "CHECKOUT":
                 if (action.data.user) {
-                    return {
+                    const currentUser = {
                         username: action.data.user.username,
                         name: action.data.user.name,
                         surname: action.data.user.surname,
@@ -53,6 +53,9 @@ const user = (state = null, action) => {
                             }
                         ]
                     }
+                    localStorage.setItem("user", JSON.stringify(currentUser));
+
+                    return currentUser;
                 }
                 default:
                     return state;
