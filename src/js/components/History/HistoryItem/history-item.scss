@@ -1,0 +1,13 @@
+.history-item {
+    margin: 20px;
+    border: 1px solid var(--primary-color);
+
+    p {
+        margin: 7px;
+    }
+
+    li {
+        list-style: disc;
+        margin: 25px;
+    }
+}

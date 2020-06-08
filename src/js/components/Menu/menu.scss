@@ -1,0 +1,80 @@
+.menu-border {
+    width: 100%;
+    border: 1px solid var(--decorate-color);
+    margin-top: -30px;
+    border-top: none;
+    border-radius: 0 0 20px 20px;
+}
+
+.menu {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.menu__filter {
+    padding: 45px 0 0 10px;
+    display: flex;
+    width: 15%;
+    justify-content: space-between;
+}
+
+.menu__filter__btn {
+    font-size: 18px;
+
+    border: 1px solid var(--primary-color);
+    padding: 5px;
+    border-radius: 5px;
+
+    outline: none;
+    transition: all .15s;
+
+    &:hover {
+        transition: all .15s;
+        cursor: pointer;
+        border-color: var(--orange-color);
+        color: var(--orange-color);
+    }
+
+    &.active {
+        border-color: var(--orange-color);
+        color: var(--orange-color);
+    }
+}
+
+@media screen and (max-width: 1218px) {
+    .menu__filter {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 926px) {
+    .menu__filter {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 734px) {
+    .menu__filter {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 554px) {
+    .menu__filter {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 476px) {
+    .menu__filter {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 386px) {
+    .menu__filter {
+        width: 60%;
+    }
+}

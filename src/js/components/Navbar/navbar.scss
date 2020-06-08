@@ -1,0 +1,158 @@
+.navbar {
+    color: var(--bg-color);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background: var(--decorate-color);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.navbar__title {
+    color: var(--orange-color);
+    font-size: 28px;
+}
+
+.navbar__nav {
+    width: 40%;
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+.navbar__nav__item {
+    list-style-type: none;
+    transition: all .3s;
+    font-size: 20px;
+
+    &:hover {
+        cursor: pointer;
+        color: var(--orange-color);
+        transition: all .3s;
+    }
+}
+
+.navbar__log {
+    display: flex;
+    width: 15%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__log__item {
+    font-size: 18px;
+    list-style-type: none;
+
+    border: 1px solid var(--bg-color);
+    padding: 5px;
+    border-radius: 5px;
+
+    display: block;
+
+    &:hover {
+        cursor: pointer;
+        border-color: var(--orange-color);
+        color: var(--orange-color);
+    }
+}
+
+.navbar__log_style {
+    color: var(--light-color);
+}
+
+.active_link {
+    color: var(--orange-color);
+}
+
+.user-data {
+    list-style: none;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 1148px) {
+    .navbar__log {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 938px) {
+    .navbar__log {
+        width: 22%;
+    }
+
+    .navbar__nav {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 794px) {
+    .navbar__log__item {
+        font-size: 16px;
+    }
+
+    .navbar__nav__item {
+        font-size: 18px;
+    }
+
+    .navbar__title {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 724px) {
+    .navbar__log {
+        width: 25%;
+    }
+
+    .navbar__nav {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 668px) {
+    .navbar__log {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 598px) {
+    .navbar__log {
+        display: block;
+        width: 20%;
+    }
+
+    .navbar__log__item {
+        text-align: center;
+        margin-bottom: 2px;
+    }
+}
+
+@media screen and (max-width: 468px) {
+    .navbar__title {
+        width: 20%;
+    }
+
+    .navbar__nav {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .navbar__nav {
+        width: 50%;
+
+        ul {
+            display: block;
+            text-align: center;
+        }
+    }
+
+    .navbar__log {
+        width: 30%;
+    }
+}

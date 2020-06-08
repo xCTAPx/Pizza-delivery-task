@@ -1,0 +1,97 @@
+[{
+        "id": 1,
+        "name": "Pepperoni",
+        "description": "Pepperoni is an American variety of salami, made from a cured mixture of pork and beef seasoned with paprika or other chili pepper. Pepperoni is characteristically soft, slightly smoky, and bright red in color.",
+        "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSAVcQC5i2ClBdD-sSblqNvOXl3OX_lcTuJsCLN6LzRdutnZeyT",
+        "priceDollars": 12,
+        "category": "pizza"
+    },
+    {
+        "id": 2,
+        "name": "Bacon Pizza",
+        "description": "Pizza is a very popular product in the world. It os made from bacon, mushrooms and sausages and some vegetables. Bacon is very testy ingridient and you will be very glad after meal with this pizza.",
+        "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRz0NAWG3EbpA0Bdn-rZPQ6oMGoxxaJknehWqiDzMLC-udctUBh&usqp=CAU",
+        "priceDollars": 10,
+        "category": "pizza"
+    },
+    {
+        "id": 3,
+        "name": "Vegeterian Pizza",
+        "description": "The average slice of pizza has 12 grams of protein, according to Chelsey Amer, a registered dietitian. Pizza can help you absorb Lycopene, an antioxidant found in brightly-colored fruits and vegetables, that may lower blood pressure rates. Fresh vegetables are one of the healthiest pizza toppings.",
+        "imgUrl": "https://images.assetsdelivery.com/compings_v2/cokemomo/cokemomo1506/cokemomo150600007.jpg",
+        "priceDollars": 9.90,
+        "category": "pizza"
+    },
+    {
+        "id": 4,
+        "name": "California",
+        "description": "California-style pizza is a style of single-serving pizza that combines New York and Italian thin crust with toppings from the California cuisine cooking style. Its invention is generally attributed to chef Ed LaDou, and Chez Panisse, in Berkeley, California.",
+        "imgUrl": "https://img3.stockfresh.com/files/t/taiga/m/56/232047_stock-photo-pizza-white-background.jpg",
+        "priceDollars": 11.12,
+        "category": "pizza"
+    },
+    {
+        "id": 5,
+        "name": "Chicken Pizza",
+        "description": "This is a recipe for classic BBQ chicken pizza with tangy BBQ sauce, chicken, and red onion. Gouda cheese gives the homemade pizza the most delicious smoky flavor and cilantro adds a touch of freshness.",
+        "imgUrl": "https://media.istockphoto.com/photos/pizza-provence-isolated-on-white-background-pizza-with-pepper-cheese-picture-id885682344",
+        "priceDollars": 10,
+        "category": "pizza"
+    },
+    {
+        "id": 6,
+        "name": "Hawaiian",
+        "description": "Hawaiian pizza also known as Pineapple pizza is a pizza topped with tomato sauce, cheese, pineapple, and ham.",
+        "imgUrl": "https://cdnc4x.arora.pro/upload/6f756921-4b0f-4766-a033-ebfa4780ea9d/original/22e4af3b-faf4-4c34-a457-a760008c45bf.jpg",
+        "priceDollars": 10.50,
+        "category": "pizza"
+    },
+    {
+        "id": 7,
+        "name": "Neapolitan",
+        "description": "Neapolitan pizza, or pizza Napoletana, is a type of pizza that originated in Naples, Italy. This style of pizza is prepared with simple and fresh ingredients: a basic dough, raw tomatoes, fresh mozzarella cheese, fresh basil, and olive oil.",
+        "imgUrl": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2016/8/23/6/FNM_100116-Neapolitan-Crust_s4x3.jpg.rend.hgtvcom.826.620.suffix/1472105052008.jpeg",
+        "priceDollars": 9.70,
+        "category": "pizza"
+    },
+    {
+        "id": 8,
+        "name": "Margherita",
+        "description": "Pizza Margherita is a typical Neapolitan pizza, made with San Marzano tomatoes, mozzarella cheese, fresh basil, salt and extra-virgin olive oil. Traditionally, it is made with fior di latte rather than buffalo mozzarella.",
+        "imgUrl": "https://media.istockphoto.com/photos/pizza-margarita-with-mozzarella-cheese-basil-and-tomato-template-for-picture-id905492462",
+        "priceDollars": 9.90,
+        "category": "pizza"
+    },
+    {
+        "id": 9,
+        "name": "Coca-cola",
+        "description": "No alcohol, carbonated, cold, sweet and fresh drink what helps you relax and fill better even than you are. Especially this drink very good when you drink it together with hot pizza.",
+        "imgUrl": "https://assets.cdnelnuevodiario.com/cache/fe/02/fe0212469280e233f872eb2cad92b3f9.jpg",
+        "priceDollars": 1,
+        "category": "drinks"
+    },
+    {
+        "id": 10,
+        "name": "Ice Tea",
+        "description": "No alcohol, fresh ice-tea what will provide good mood for all rest of day. It is the most popular none-carbonated drink in a lot of countries and very tasty drink with juicy pizza",
+        "imgUrl": "https://st2.depositphotos.com/1817018/6987/i/950/depositphotos_69877471-stock-photo-glass-of-cold-ice-tea.jpg",
+        "priceDollars": 1.25,
+        "category": "drinks"
+    },
+    {
+        "id": 11,
+        "name": "Fruit Juice",
+        "description": "Juice is a drink made from the extraction or pressing of the natural liquid contained in fruit and vegetables. Juice is commonly consumed as a beverage or used as an ingredient or flavoring in foods or other beverages, as for smoothies.",
+        "imgUrl": "https://previews.123rf.com/images/yurakp/yurakp1601/yurakp160100192/51861909-mix-of-fruit-juices-isolated-on-the-white-background-.jpg",
+        "priceDollars": 1.99,
+        "category": "drinks"
+    },
+    {
+        "id": 12,
+        "name": "Bottle of Water",
+        "description": "The cheapest and the most common drink in the world - water. Just buy bottle of water and enjoy its fresh, charge energy yourself.",
+        "imgUrl": "https://image.freepik.com/free-photo/plastic-water-bottle-white-background_151689-129.jpg",
+        "priceDollars": 0.80,
+        "category": "drinks"
+    }
+]
